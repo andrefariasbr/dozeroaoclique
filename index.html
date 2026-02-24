@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serviços especializados em manutenção de computadores, ativação de Office, limpeza e formatação.">
+    <title>Do Zero ao Clique - Manutenção de Computadores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="nav-brand">
+                <span class="brand-text">Do Zero ao <strong>Clique<i class="fa-solid fa-arrow-pointer"></i></strong></span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="logo.png" alt="Do Zero ao Clique" class="hero-logo">
+                <h2>Soluções Completas em <span>Informática</span></h2>
+                <p>Do zero ao clique, cuidamos do seu computador com profissionalismo, agilidade e preço justo.</p>
+                <div class="hero-buttons">
+                    <a href="#servicos" class="btn btn-primary">Ver Serviços</a>
+                    <a href="#contato" class="btn btn-outline">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicos -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-subtitle">Soluções completas para suas necessidades de informática</p>
+
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <span class="servico-icon"><i class="fa-solid fa-laptop"></i></span>
+                    <h3>Manutenção de Computadores</h3>
+                    <p>Manutenção preventiva e corretiva de hardware e software. Diagnóstico completo e reparo garantido para notebook e desktop.</p>
+                </div>
+                <div class="servico-card">
+                    <span class="servico-icon"><i class="fa-solid fa-key"></i></span>
+                    <h3>Ativação de Office</h3>
+                    <p>Instalação e ativação do Microsoft Office. Suporte completo para Word, Excel, PowerPoint e Outlook.</p>
+                </div>
+                <div class="servico-card">
+                    <span class="servico-icon"><i class="fa-solid fa-shield-virus"></i></span>
+                    <h3>Limpeza de Sistema</h3>
+                    <p>Remoção de vírus, malware e arquivos desnecessários. Otimização completa para recuperar o desempenho do seu computador.</p>
+                </div>
+                <div class="servico-card">
+                    <span class="servico-icon"><i class="fa-solid fa-rotate"></i></span>
+                    <h3>Formatação</h3>
+                    <p>Formatação e reinstalação do Windows 10 e 11. Backup seguro dos seus arquivos antes de qualquer procedimento.</p>
+                </div>
+                <div class="servico-card">
+                    <span class="servico-icon"><i class="fa-solid fa-microchip"></i></span>
+                    <h3>Upgrade de Hardware</h3>
+                    <p>Troca de HD por SSD, aumento de memória RAM e instalação de outros componentes para deixar sua máquina mais rápida.</p>
+                </div>
+                <div class="servico-card">
+                    <span class="servico-icon"><i class="fa-solid fa-wind"></i></span>
+                    <h3>Limpeza Preventiva e Corretiva</h3>
+                    <p>Limpeza interna completa, remoção de poeira e troca de pasta térmica. Ideal para computadores esquentando, travando ou com ventoinhas barulhentas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Por que nos escolher?</h2>
+            <p class="section-subtitle">Confira o que nos diferencia no mercado</p>
+
+            <div class="sobre-cards">
+                <div class="sobre-card">
+                    <div class="sobre-card-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h4>Atendimento Rápido</h4>
+                    <p>Diagnóstico e orçamento no mesmo dia. Resolução ágil para que você fique sem o computador o menor tempo possível.</p>
+                </div>
+                <div class="sobre-card">
+                    <div class="sobre-card-icon"><i class="fa-solid fa-medal"></i></div>
+                    <h4>Qualidade Garantida</h4>
+                    <p>Serviço feito com cuidado e atenção em cada detalhe. Profissionais comprometidos com a excelência e a satisfação de cada cliente.</p>
+                </div>
+                <div class="sobre-card">
+                    <div class="sobre-card-icon"><i class="fa-solid fa-tag"></i></div>
+                    <h4>Preço Justo</h4>
+                    <p>Orçamento transparente e sem surpresas. Preço acessível sem abrir mão da qualidade e do profissionalismo.</p>
+                </div>
+                <div class="sobre-card">
+                    <div class="sobre-card-icon"><i class="fa-solid fa-right-left"></i></div>
+                    <h4>Leve e Busque</h4>
+                    <p>Simples e prático: traga seu PC ou notebook, deixa com a gente e busca quando estiver pronto. Sem burocracia.</p>
+                </div>
+                <div class="sobre-card">
+                    <div class="sobre-card-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <h4>Diagnóstico Gratuito</h4>
+                    <p>Antes de qualquer serviço, fazemos um diagnóstico completo sem custo. Você recebe o orçamento e decide se quer prosseguir.</p>
+                </div>
+                <div class="sobre-card">
+                    <div class="sobre-card-icon"><i class="fa-solid fa-lock"></i></div>
+                    <h4>Sigilo dos Seus Dados</h4>
+                    <p>Seus arquivos, fotos e informações são tratados com total privacidade. Você pode confiar que nada será acessado sem necessidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Estamos prontos para te atender!</p>
+
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <span class="contato-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                        <div class="contato-item-text">
+                            <h3>Telefone / WhatsApp</h3>
+                            <p><a href="https://wa.me/5584921688305" target="_blank">(84) 92168-8305</a></p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <span class="contato-icon"><i class="fa-solid fa-envelope"></i></span>
+                        <div class="contato-item-text">
+                            <h3>Email</h3>
+                            <p><a href="https://mail.google.com/mail/?view=cm&to=dozeroaocliquebr@gmail.com" target="_blank">dozeroaocliquebr@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <span class="contato-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <div class="contato-item-text">
+                            <h3>Localização</h3>
+                            <p>Av. Lauro Maia, 103 - Lucrécia, RN</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <span class="contato-icon"><i class="fa-solid fa-clock"></i></span>
+                        <div class="contato-item-text">
+                            <h3>Horário de Atendimento</h3>
+                            <p>Seg - Sáb: 9h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato-form">
+                    <form id="contatoForm">
+                        <input id="nome" type="text" placeholder="Seu Nome" required>
+                        <input id="telefone" type="tel" placeholder="Telefone / WhatsApp" required>
+                        <textarea id="mensagem" placeholder="Descreva o problema ou serviço desejado..." rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Enviar pelo WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 <span>Do Zero ao Clique</span>. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <a href="https://andrefariasbr.github.io/Portfolio/" target="_blank">André Ferreira</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('active');
+        }
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navMenu').classList.remove('active');
+            });
+        });
+
+        document.getElementById('contatoForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nome     = document.getElementById('nome').value.trim();
+            const telefone = document.getElementById('telefone').value.trim();
+            const mensagem = document.getElementById('mensagem').value.trim();
+
+            const texto = `Olá! Vim pelo site *Do Zero ao Clique* e gostaria de um atendimento.%0A%0A*Nome:* ${encodeURIComponent(nome)}%0A*Telefone:* ${encodeURIComponent(telefone)}%0A%0A*Mensagem:*%0A${encodeURIComponent(mensagem)}`;
+
+            window.open(`https://wa.me/5584921688305?text=${texto}`, '_blank');
+        });
+    </script>
+</body>
+</html>
