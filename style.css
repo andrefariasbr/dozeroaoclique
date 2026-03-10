@@ -82,11 +82,17 @@ body {
     text-align: center;
 }
 .hero-logo {
-    width: 300px;
-    max-width: 80%;
+    width: 280px;
+    max-width: 75%;
     margin: 0 auto 2.5rem;
     display: block;
-    filter: drop-shadow(0 0 50px rgba(59,143,245,0.4));
+    filter: drop-shadow(0 0 18px rgba(59,143,245,0.8)) drop-shadow(0 0 50px rgba(59,143,245,0.4));
+    animation: logoFloat 4s ease-in-out infinite;
+}
+
+@keyframes logoFloat {
+    0%, 100% { transform: translateY(0px); filter: drop-shadow(0 0 18px rgba(59,143,245,0.8)) drop-shadow(0 0 50px rgba(59,143,245,0.4)); }
+    50%       { transform: translateY(-10px); filter: drop-shadow(0 0 28px rgba(59,143,245,1)) drop-shadow(0 0 70px rgba(59,143,245,0.6)); }
 }
 .hero-content h2 { font-size: 3rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1rem; }
 .hero-content h2 span { color: var(--primary-color); }
